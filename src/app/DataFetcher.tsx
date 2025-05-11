@@ -13,7 +13,7 @@ export default async function DataFetcher() {
     <div className='flex flex-row gap-4'>
       {result?.data?.map((users:{id:string,name:string,age:string})=>{
 
-        return <div>
+        return <div key={users.id}>
             <h2>Id: {users.id}</h2>
             <h2>Name: {users.name}</h2>
             <h2>Age: {users.age}</h2>
