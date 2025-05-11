@@ -15,7 +15,7 @@ export default async function DataFetcher() {
 
         return <div>
             <h2>Id: {users.id}</h2>
-            <h2>Name: {users.userName}</h2>
+            <h2>Name: {users.name}</h2>
             <h2>Age: {users.age}</h2>
         </div>
       })}
