@@ -1,7 +1,7 @@
 import React from 'react';
 
 async function fetchData() {
-  const res = await fetch(process.env.NEXT_PUBLIC_API_URL as string);
+  const res = await fetch(process.env.NEXT_PUBLIC_API_URL as string,{cache: 'no-store'});
   const data = await res.json();
   return data;
 }
