@@ -24,3 +24,10 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+
+.bg-custom-gradient {
+    background: linear-gradient(274.36deg, #01b3ff 27.36%, #FFFFFF 89.16%);
+    background-clip: text;
+    color: transparent;
+}
