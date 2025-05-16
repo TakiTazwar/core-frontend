@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Rientage",
-  description: "Rientage IT Homepage",
+  description: "Rientage | Web, Software & Game Development Solutions",
 };
 
 export default function RootLayout({
