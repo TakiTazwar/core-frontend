@@ -1,5 +1,4 @@
 import Footer from "@/components/footer";
-import DataFetcher from "./DataFetcher";
 import Header from "@/components/header";
 import HomePage from "@/components/HomePage/homePage";
 
