@@ -4,7 +4,7 @@ import HomePage from "@/components/HomePage/homePage";
 
 export default function Home() {
   return (
-    <div className="flex flex-col min-h-screen w-screen ">
+    <div className="flex flex-col min-h-screen w-full ">
       <Header />
       <main className="flex flex-col flex-grow bg-gray-100 items-center text-black">
         <div className="flex flex-row w-full h-150 p-10 bg-[#1E1E1E] shadow-md">
@@ -17,14 +17,14 @@ export default function Home() {
             <HomePage />
           </div>
         </div>
-        <div className="flex flex-row w-[100%] ml-[20%] mt-[50px]">
+        <div className="flex flex-row w-[80%] ml-[20%] mt-[50px]">
           <div className="bg-[#21759A] h-[30px] w-[3px] mr-[20px]">
           </div>
           <div className="text-xl">
             WORDPRESS ESSENTIAL
           </div>
         </div>
-        <div className="text-4xl font-bold text-[#000000] w-[100%] ml-[20%] mt-[20px]">
+        <div className="text-4xl font-bold text-[#000000] w-[80%] ml-[20%] mt-[20px]">
           Must Have Plugins for Everyone
         </div>
         <div className="max-w-2xl rounded-2xl border border-sky-100 bg-sky-50 p-6 shadow-sm md:p-8">
