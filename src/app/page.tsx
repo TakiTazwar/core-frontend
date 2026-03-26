@@ -89,6 +89,8 @@ export default function Home() {
             </div>
           </div>
         </div>
+        <h1>Page is Under Construction!</h1>
+        <h2>Please Wait.</h2>
       </main>
       <Footer />
     </div>
