@@ -416,7 +416,7 @@ export default function MLModelTrainingPage() {
                         </div>
                       </div>
                       <h3 className="text-3xl font-bold text-white mb-2">Request Received!</h3>
-                      <p className="text-lg text-cyan-200 mb-6">We've received your information and will contact you shortly.</p>
+                      <p className="text-lg text-cyan-200 mb-6">We&apos;ve received your information and will contact you shortly.</p>
                       <div className="bg-cyan-950/60 p-4 rounded-lg mb-6 border border-cyan-700">
                         <p className="text-sm text-cyan-100">Confirmation sent to:</p>
                         <p className="font-semibold text-white">{formData.email}</p>
@@ -471,7 +471,7 @@ export default function MLModelTrainingPage() {
                           aria-describedby="email-hint"
                           className="w-full px-4 py-3 border-2 border-cyan-700 rounded-lg bg-slate-800 text-white placeholder-slate-500 focus:outline-none focus:border-cyan-500 focus:ring-2 focus:ring-cyan-400/50 transition-all"
                         />
-                        <p id="email-hint" className="text-xs text-cyan-300 mt-1">We'll use this to contact you about your ML project</p>
+                        <p id="email-hint" className="text-xs text-cyan-300 mt-1">We&apos;ll use this to contact you about your ML project</p>
                       </div>
                       
                       <div>

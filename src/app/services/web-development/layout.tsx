@@ -44,8 +44,6 @@ export const metadata: Metadata = {
     "max-video-preview": -1,
   },
 
-  canonical: "https://rientage.com/services/web-development",
-
   alternates: {
     canonical: "https://rientage.com/services/web-development",
   },

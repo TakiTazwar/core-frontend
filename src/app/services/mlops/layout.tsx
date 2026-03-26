@@ -44,7 +44,9 @@ export const metadata: Metadata = {
     index: true,
     follow: true
   },
-  canonical: "https://rientage.com/services/mlops"
+  alternates: {
+    canonical: "https://rientage.com/services/mlops"
+  }
 };
 
 export default function MLOpsLayout({

@@ -30,7 +30,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="border-t border-slate-700 pt-8">
-          <p className="text-center text-slate-400 text-sm">&copy; {currentYear} Rientage. All rights reserved. | Innovating Tomorrow's Technology</p>
+          <p className="text-center text-slate-400 text-sm">&copy; {currentYear} Rientage. All rights reserved. | Innovating Tomorrow&apos;s Technology</p>
         </div>
       </div>
     </footer>

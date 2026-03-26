@@ -334,7 +334,7 @@ export default function MLOpsPage() {
                         </div>
                       </div>
                       <h3 className="text-3xl font-bold text-white mb-2">Request Received!</h3>
-                      <p className="text-lg text-green-200 mb-6">We've received your MLOps consultation request and will contact you shortly.</p>
+                      <p className="text-lg text-green-200 mb-6">We&apos;ve received your MLOps consultation request and will contact you shortly.</p>
                       <div className="bg-green-950/60 p-4 rounded-lg mb-6 border border-green-700">
                         <p className="text-sm text-green-100">Confirmation sent to:</p>
                         <p className="font-semibold text-white">{formData.email}</p>
@@ -389,7 +389,7 @@ export default function MLOpsPage() {
                           aria-describedby="email-hint"
                           className="w-full px-4 py-3 border-2 border-green-700 rounded-lg bg-slate-800 text-white placeholder-slate-500 focus:outline-none focus:border-green-500 focus:ring-2 focus:ring-green-400/50 transition-all"
                         />
-                        <p id="email-hint" className="text-xs text-green-300 mt-1">We'll use this to contact you about your MLOps project</p>
+                        <p id="email-hint" className="text-xs text-green-300 mt-1">We&apos;ll use this to contact you about your MLOps project</p>
                       </div>
                       
                       <div>

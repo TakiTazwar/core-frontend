@@ -450,7 +450,7 @@ export default function WebDevelopmentPage() {
             {/* Professional CTA Section */}
             <section className="bg-gradient-to-br from-slate-50 to-slate-100 p-16 rounded-2xl shadow-xl border border-slate-200" aria-label="Get started with web development services">
               <div className="max-w-2xl mx-auto">
-                <h2 className="text-5xl font-black mb-3 text-slate-900">Let's Get Started</h2>
+                <h2 className="text-5xl font-black mb-3 text-slate-900">Let&apos;s Get Started</h2>
                 <p className="text-xl text-slate-600 mb-12">Fill out the form below and our team will reach out to discuss your web development project</p>
                 
                 {submitted ? (
@@ -465,7 +465,7 @@ export default function WebDevelopmentPage() {
                         </div>
                       </div>
                       <h3 className="text-3xl font-bold text-slate-900 mb-2">Request Received!</h3>
-                      <p className="text-lg text-slate-600 mb-6">We've received your information and will contact you shortly.</p>
+                      <p className="text-lg text-slate-600 mb-6">We&apos;ve received your information and will contact you shortly.</p>
                       <div className="bg-blue-50 p-4 rounded-lg mb-6 border border-blue-200">
                         <p className="text-sm text-slate-600">Confirmation sent to:</p>
                         <p className="font-semibold text-slate-900">{formData.email}</p>
@@ -520,7 +520,7 @@ export default function WebDevelopmentPage() {
                           aria-describedby="email-hint"
                           className="w-full px-4 py-3 border-2 border-slate-300 rounded-lg text-slate-900 placeholder-slate-400 focus:outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-200 transition-all"
                         />
-                        <p id="email-hint" className="text-xs text-slate-500 mt-1">We'll use this to contact you about your project</p>
+                        <p id="email-hint" className="text-xs text-slate-500 mt-1">We&apos;ll use this to contact you about your project</p>
                       </div>
                       
                       <div>

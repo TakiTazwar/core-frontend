@@ -456,7 +456,7 @@ export default function DevOpsPage() {
                         </div>
                       </div>
                       <h3 className="text-3xl font-bold text-white mb-2">Request Received!</h3>
-                      <p className="text-lg text-purple-200 mb-6">We've received your information and will contact you shortly.</p>
+                      <p className="text-lg text-purple-200 mb-6">We&apos;ve received your information and will contact you shortly.</p>
                       <div className="bg-purple-950/60 p-4 rounded-lg mb-6 border border-purple-700">
                         <p className="text-sm text-purple-100">Confirmation sent to:</p>
                         <p className="font-semibold text-white">{formData.email}</p>
@@ -511,7 +511,7 @@ export default function DevOpsPage() {
                           aria-describedby="email-hint"
                           className="w-full px-4 py-3 border-2 border-purple-700 rounded-lg bg-slate-800 text-white placeholder-slate-500 focus:outline-none focus:border-purple-500 focus:ring-2 focus:ring-purple-400/50 transition-all"
                         />
-                        <p id="email-hint" className="text-xs text-purple-300 mt-1">We'll use this to contact you about your infrastructure needs</p>
+                        <p id="email-hint" className="text-xs text-purple-300 mt-1">We&apos;ll use this to contact you about your infrastructure needs</p>
                       </div>
                       
                       <div>
