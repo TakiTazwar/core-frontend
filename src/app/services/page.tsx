@@ -87,9 +87,12 @@ const services = [
 
 export default function ServicesPage() {
   return (
-    <div className="flex flex-col min-h-screen w-full bg-white">
+    <div className="relative flex flex-col min-h-screen w-full bg-slate-100 overflow-hidden">
+      <div className="pointer-events-none absolute inset-0 z-0 bg-[radial-gradient(circle_at_20%_20%,rgba(59,130,246,0.10),transparent_42%),radial-gradient(circle_at_80%_15%,rgba(147,51,234,0.10),transparent_38%),radial-gradient(circle_at_50%_100%,rgba(51,65,85,0.10),transparent_48%)]"></div>
+      <div className="pointer-events-none absolute -top-20 -left-24 z-0 h-96 w-96 rounded-full bg-blue-400/20 blur-3xl bg-orb-float"></div>
+      <div className="pointer-events-none absolute top-24 -right-24 z-0 h-[26rem] w-[26rem] rounded-full bg-purple-400/20 blur-3xl bg-orb-float-delayed"></div>
       <Header />
-      <main className="flex flex-col flex-grow">
+      <main className="relative z-10 flex flex-col flex-grow">
         {/* Services Hero */}
         <div className="relative w-full bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 overflow-hidden py-20">
           <div className="absolute inset-0 opacity-20">
@@ -103,8 +106,8 @@ export default function ServicesPage() {
         </div>
 
         {/* Services Grid */}
-        <div className="w-full px-8 py-24 bg-white">
-          <div className="max-w-7xl mx-auto">
+        <div className="w-full py-24 bg-transparent">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {services.map((service) => (
                 <Link key={service.id} href={`/services/${service.id}`}>
