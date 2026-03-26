@@ -79,7 +79,7 @@ export default function Home() {
                 { id: "digital-technology-consulting", icon: "🧭", title: "Digital & Technology Consulting", desc: "Strategy, architecture, and transformation planning" }
               ].map((service) => (
                 <Link key={service.id} href={`/services/${service.id}`}>
-                  <div className="group p-6 bg-gradient-to-br from-slate-50 to-slate-100 rounded-xl shadow-md hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 border border-slate-200 cursor-pointer">
+                  <div className="group h-full p-6 bg-gradient-to-br from-slate-50 to-slate-100 rounded-xl shadow-md hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 border border-slate-200 cursor-pointer flex flex-col">
                     <div className="text-4xl mb-3 group-hover:scale-110 transition-transform">{service.icon}</div>
                     <h3 className="text-lg font-bold mb-2 text-slate-800 group-hover:text-blue-600 transition-colors">{service.title}</h3>
                     <p className="text-sm text-slate-600">{service.desc}</p>
