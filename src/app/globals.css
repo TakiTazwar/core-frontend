@@ -25,6 +25,63 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+@keyframes float-slow {
+  0%,
+  100% {
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+  50% {
+    transform: translate3d(0, -24px, 0) scale(1.05);
+  }
+}
+
+@keyframes float-slower {
+  0%,
+  100% {
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+  50% {
+    transform: translate3d(-18px, 18px, 0) scale(1.04);
+  }
+}
+
+.animate-float-slow {
+  animation: float-slow 13s ease-in-out infinite;
+}
+
+.animate-float-slower {
+  animation: float-slower 18s ease-in-out infinite;
+}
+
+/* Custom scrollbar */
+html {
+  scrollbar-width: thin;
+  scrollbar-color: #4f46e5 #e2e8f0;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: linear-gradient(180deg, #f1f5f9 0%, #e2e8f0 100%);
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #2563eb 0%, #7c3aed 100%);
+  border-radius: 999px;
+  border: 2px solid #e2e8f0;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #1d4ed8 0%, #6d28d9 100%);
+}
+
+::-webkit-scrollbar-corner {
+  background: #e2e8f0;
+}
+
 
 .bg-custom-gradient {
     background: linear-gradient(274.36deg, #01b3ff 27.36%, #FFFFFF 89.16%);
