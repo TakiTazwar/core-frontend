@@ -3,7 +3,7 @@ const HomePage = () => {
   return (
     <div className="w-full h-full pr-38 flex justify-center items-center">
     <svg width="280" height="461" viewBox="0 0 280 461" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
-<rect width="280" height="461" fill="#1E1E1E"/>
+<rect width="280" height="461" fill="none"/>
 <path d="M76.0941 233C75.6717 256.552 81.7654 266.756 100.5 281.224" stroke="white"/>
 <path d="M148.947 235C151.62 253.884 154.12 257.732 166.109 268.912" stroke="white"/>
 <path d="M107.5 191C118.633 229.006 111.084 235.304 132 261.912" stroke="white"/>
